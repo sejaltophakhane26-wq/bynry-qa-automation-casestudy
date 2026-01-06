@@ -1,0 +1,8 @@
+base_url: https://app.workflowpro.com
+api_base_url: https://api.workflowpro.com
+tenants:
+  company1:
+    admin: admin@company1.com:password123
+    manager: manager@company1.com:password123
+  company2:
+    admin: admin@company2.com:password123
