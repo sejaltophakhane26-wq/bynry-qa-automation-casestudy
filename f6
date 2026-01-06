@@ -1,0 +1,7 @@
+class LoginPage:
+    def __init__(self, page):
+        self.page = page
+    
+    def login(self, email, password):
+        # Implementation here
+        pass
