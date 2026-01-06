@@ -1,0 +1,8 @@
+# Sample UI test using Playwright
+from pages.login_page import LoginPage
+
+def test_user_login(page):
+    login = LoginPage(page)
+    login.goto()
+    login.login("admin@company1.com", "password123")
+    login.verify_dashboard()
