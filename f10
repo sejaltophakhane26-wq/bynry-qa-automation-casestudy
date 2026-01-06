@@ -1,0 +1,6 @@
+[tool:pytest]
+markers =
+    smoke: Smoke tests
+    regression: Regression suite
+    api: API tests only
+    integration: End-to-end tests
