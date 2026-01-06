@@ -1,0 +1,9 @@
+# Part 2: Framework Design
+
+## Structure
+- tests/ui/, tests/api/, tests/integration/
+- pages/ for Page Object Model
+- config/ for multi-tenant settings
+
+## Configuration
+ENV=dev, TENANT=company1 loads dev.yaml
