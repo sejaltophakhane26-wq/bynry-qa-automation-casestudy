@@ -1,0 +1,10 @@
+# Part 1: Debugging Flaky Tests
+
+## Issues Found
+1. No explicit waits for dynamic dashboard
+2. No 2FA handling for some users
+3. Hard-coded credentials
+4. No fixtures for browser lifecycle
+
+## Fixed Code
+[Copy the fixed Playwright code from previous reply]
