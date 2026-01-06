@@ -1,0 +1,10 @@
+# Part 3: API + UI Integration Test
+
+## Scenario
+1. API: POST /projects (tenant=company1)
+2. Web UI: Verify project visible
+3. Mobile: Verify project visible (BrowserStack)
+4. Security: Not visible to company2 user
+
+## Pseudocode
+[Copy the integration test pseudocode from previous reply]
